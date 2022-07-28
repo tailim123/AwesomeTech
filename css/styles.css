@@ -1,0 +1,132 @@
+/* reset browser styles */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.2;
+}
+ol { 
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+ul {
+	padding-left: 1.4em;
+	list-style: square;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+/* end reset browser styles */
+@font-face{
+	font-family: 'Aquire';
+	src: url('fonts/Aquire-Bw0ox.otf')
+}
+body {
+	font-size: 62.5%;
+}
+.h1{
+	background-color: black;
+	display: block;
+	font-family: 'Aquire';
+}
+.h1 li{
+	display: inline;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: bold;
+	font-size: 2.5em;
+  	color: rgb(255, 255, 255);
+	text-align: center;
+	padding: .1em .5em .2em .5em;
+	margin-top: 3em;
+	font-family: 'Aquire';
+}
+.h1 li:hover{
+	background-color: rgb(57, 255, 20);
+	color: black;
+}
+.content {
+	margin-left: 15px;
+	margin-top: 15px;
+	border-right: none;
+	border-bottom: none;
+	text-align: center;
+}
+.gallery .figure p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.1em;
+	text-align: center;
+	line-height: normal;
+}
+h1 {
+	width: auto;
+	font-family: 'Aquire';
+	font-size: 40px;
+	margin-bottom: 40px;
+	padding: 5px 0 5px 8px;
+	color: rgb(57, 255, 20);
+	background-color: black;
+	text-transform: capitalize;
+}
+h1 strong{
+	font-size: 60px;
+	color: rgb(57, 255, 20);
+}
+p {
+	font: 1.6em/160% Georgia, "Times New Roman", Times, serif;
+	margin: 10px 8px;
+}
+.copyright {
+	margin-bottom: 1.5em;
+	padding-top: 1.5em;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 1.5em;
+	color: #666666;
+	border-top: 3px solid black;
+	clear: both;
+	text-align: center;
+}
+figure img {
+	margin-top: 20px;
+	border: 3px solid black;
+	padding: 4px;
+	box-shadow: 2px 2px 4px rgba(0,0,0,.5);
+	border-radius: 35px;
+}
+figure img:hover{
+	box-shadow: 5px 5px 10px rgba(0,0,0,.5);
+}
+figcaption {
+	font: 1.1em Arial, Helvetica, sans-serif;
+	margin: 10px 0 0 0;
+}
+figure {
+	display: inline-block;
+ 	vertical-align: top;
+	width: 260px;
+	margin: 0 10px 10px 10px;
+}
+figure p{
+	font-family: 'Work Sans', sans-serif;
+	font-size: 27px;
+}
+figure strong{
+	font-size: 20px;
+	text-transform: uppercase;
+}
+figure ul{
+	font-size: 1.3em;
+	text-align: left;
+	line-height: 20px;
+	margin-top: 50px;
+}
